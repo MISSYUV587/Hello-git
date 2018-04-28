@@ -11,8 +11,10 @@ def run_formula(dv, param = None):
         
     t = param['t']
     
-    Alpha60 = dv.add_formula('alpha60', "Ts_Sum(((close-low)-(high-close))/(high-low)*volume,%s)"%(t),
+    alpha60 = dv.add_formula('alpha60', "Ts_Sum(((close-low)-(high-close))/(high-low)*volume,%s)"%(t),
                              is_quarterly=False,
                              add_data=True)
-    return Alpha60
+    return alpha60
+
+
 

@@ -1,11 +1,6 @@
 
 # coding: utf-8
 
-# In[ ]:
-
-
-OPGR = dv.add_formula("OPGR","((oper_profit)/Delay((oper_profit),365))-1",is_quarterly=False, add_data=True, overwrite=True)
-
 
 # In[ ]:
 
